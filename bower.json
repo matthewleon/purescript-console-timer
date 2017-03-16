@@ -1,0 +1,24 @@
+{
+  "name": "purescript-console-timer",
+  "homepage": "https://github.com/matthewleon/purescript-console-timer",
+  "authors": [
+    "Matthew Leon <ml@matthewleon.com>"
+  ],
+  "description": "Purescript console timer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewleon/purescript-console-timer.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^2.5.0",
+    "purescript-console": "^2.0.0",
+    "purescript-symbols": "^2.0.0"
+  }
+}
