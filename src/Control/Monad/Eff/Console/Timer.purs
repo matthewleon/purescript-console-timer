@@ -19,7 +19,7 @@ timerStr _ = reflectSymbol (SProxy :: SProxy name)
 -- | ``` purescript
 -- | main :: Eff (console :: CONSOLE) Unit
 -- | main = do
--- |   (timer :: Timer "example") <- time
+-- |   timer :: Timer "example" <- time
 -- |   timeEnd timer
 -- | ```
 time :: forall name eff. IsSymbol name =>

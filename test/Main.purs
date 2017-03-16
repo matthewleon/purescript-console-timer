@@ -8,5 +8,5 @@ import Data.Unit (Unit)
 
 main :: Eff (console :: CONSOLE) Unit
 main = do
-  (timer :: Timer "example") <- time
+  timer :: Timer "example" <- time
   timeEnd timer
