@@ -5,6 +5,8 @@
 
 A type-safe interface to JavaScript's `console.timer`.
 
+WARNING: This package has been deprecated in favor of [purescript-console-browser-specific](https://pursuit.purescript.org/packages/purescript-console-browser-specific), which has a simpler and more accurate API.
+
 ## Installation
 
 ```
